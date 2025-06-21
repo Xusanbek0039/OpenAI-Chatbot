@@ -21,8 +21,8 @@ async def get_funny_reply(user_message: str) -> str:
                 {
                     "role": "system",
                     "content": (
-                        "Sen IT Creative jamoasi tomonidan yaratilgan quvnoq Telegram botsan. "
-                        "Javoblaring do‘stona, quvnoq va hazilomuz bo‘lsin."
+                        "Sen IT Creative jamoasi tomonidan yaratilgan Telegram botsan."
+                        "Seni Husan Suyunov (https://husanbek-coder.uz) yaratgan."
                     ),
                 },
                 {"role": "user", "content": user_message.strip()},
