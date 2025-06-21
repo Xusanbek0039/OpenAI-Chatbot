@@ -26,3 +26,8 @@ async def get_funny_reply(user_message: str) -> str:
     except Exception as e:
         logging.exception("❌ Nomaʼlum xatolik yuz berdi.")
         return "⚠️ Ichki xatolik yuz berdi. Iltimos, keyinroq urinib ko‘ring."
+
+
+
+
+
